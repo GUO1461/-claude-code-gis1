@@ -28,7 +28,7 @@ Esri 在 ArcGIS Pro 3.6 中推出了 AI Assistant（Beta），支持 Help/Perfor
 本系统与它不是替代关系，而是互补：
 
 - **Pro Assistant** 是一个通用 AI 面板，适合单次操作和代码生成
-- **本系统** 是一个专门优化批量制图流程的 Claude Code Skill，专注于"扫描→模板→出图"的完整循环
+- **本系统** 是一个专注 GIS 工作流自动化的 Claude Code Skill，覆盖数据处理、空间分析到批量出图的完整链路
 
 两者在各自擅长的场景下使用。如果日常任务可以通过 Pro Assistant 完成，就用它。
 
