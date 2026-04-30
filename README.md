@@ -1,4 +1,4 @@
-# Claude Code GIS — AI 驱动的 ArcGIS Pro 自动化制图系统
+# Claude Code GIS — 用自然语言操控 ArcGIS Pro
 
 用自然语言操控 ArcGIS Pro，从数据扫描到批量出图，全流程自动化。
 
