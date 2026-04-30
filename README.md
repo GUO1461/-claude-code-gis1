@@ -21,16 +21,16 @@ Claude Code:
 耗时: ~2分钟（含生成和验证）
 ```
 
-## 和 Esri 官方 Pro Assistant 的区别
+## 和 Esri 官方 Pro Assistant 的定位
 
-| | 官方 Pro Assistant (Beta) | 本系统 |
-|---|---|---|
-| 状态 | 内测中，需申请 | 已跑生产几个月 |
-| 语言 | 仅英文 | 中文原生 |
-| 批量制图 | 单次操作 | 完整循环流程 |
-| 布局修改 | 不支持 | DOM 风格 PagxLayout |
-| 失败恢复 | 无 | 利用 Claude Code 自动调试 |
-| 需要 Pro | 是 | 是（执行层），但模板编辑不需要 |
+Esri 在 ArcGIS Pro 3.6 中推出了 AI Assistant（Beta），支持 Help/Perform Actions/ArcPy Code Generation 等模式。
+
+本系统与它不是替代关系，而是互补：
+
+- **Pro Assistant** 是一个通用 AI 面板，适合单次操作和代码生成
+- **本系统** 是一个专门优化批量制图流程的 Claude Code Skill，专注于"扫描→模板→出图"的完整循环
+
+两者在各自擅长的场景下使用。如果日常任务可以通过 Pro Assistant 完成，就用它。
 
 ## 项目结构
 
